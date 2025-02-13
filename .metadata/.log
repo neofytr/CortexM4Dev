@@ -1,0 +1,134 @@
+!SESSION 2025-02-13 21:35:20.445 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-13 21:35:25.743
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-13 21:35:25.744
+!MESSAGE Log4j2 initialized with config file /home/raj/Desktop/STM32Cube/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-13 21:35:27.419
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.common.mx 4 0 2025-02-13 21:36:35.277
+!MESSAGE Attempted to use a closed object.
+
+You're trying to call a method of a closed object. Usually, it happens when you
+call the `close()` method of an object (or its owner) prior to calling methods
+of that object.
+
+Another common cause of this exception is working with cached DOM or JavaScript
+objects. For example, if you navigate to another web page and try to call
+a method of a DOM or a JavaScript object from the previous page, you will get
+this exception.
+
+It's also possible that the native Chromium process has crashed. In that case,
+all the objects that belong to that process are closed automatically.
+
+The following article explains this exception in detail: https://links.teamdev.com/jxbrowser-object-closed-exception
+
+!STACK 0
+com.teamdev.jxbrowser.ObjectClosedException: Attempted to use a closed object.
+
+You're trying to call a method of a closed object. Usually, it happens when you
+call the `close()` method of an object (or its owner) prior to calling methods
+of that object.
+
+Another common cause of this exception is working with cached DOM or JavaScript
+objects. For example, if you navigate to another web page and try to call
+a method of a DOM or a JavaScript object from the previous page, you will get
+this exception.
+
+It's also possible that the native Chromium process has crashed. In that case,
+all the objects that belong to that process are closed automatically.
+
+The following article explains this exception in detail: https://links.teamdev.com/jxbrowser-object-closed-exception
+
+	at com.teamdev.jxbrowser.internal.CloseableImpl.checkNotClosed(CloseableImpl.java:41)
+	at com.teamdev.jxbrowser.browser.internal.BrowserImpl.mainFrame(BrowserImpl.java:233)
+	at com.st.microxplorer.plugins.userauth.WebApp.isAuthenticated(WebApp.java:673)
+	at com.st.microxplorer.plugins.userauth.UserAuth.handleAuthentication(UserAuth.java:541)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getSpecificTask(UserAuth.java:376)
+	at com.st.microxplorer.plugins.updater.engine.MainUpdater.loadFirmwareName(MainUpdater.java:2383)
+	at com.st.microxplorer.plugins.updater.Updater.getSpecificTask(Updater.java:386)
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1426)
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.doGenerate(CubeMxEditor.java:2582)
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$22.run(CubeMxEditor.java:2282)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 0 2025-02-13 21:36:41.711
+!MESSAGE STM32CubeMx project generation failure
+!SESSION 2025-02-13 21:43:45.224 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-13 21:43:49.705
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-13 21:43:49.706
+!MESSAGE Log4j2 initialized with config file /home/raj/Desktop/STM32Cube/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-13 21:43:51.566
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-13 21:45:01.832
+!MESSAGE Indexed 'HelloWorld' (3 sources, 53 headers) in 0.561 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-02-13 21:46:36.349 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-13 21:46:40.351
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-13 21:46:40.352
+!MESSAGE Log4j2 initialized with config file /home/raj/Desktop/STM32Cube/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-13 21:46:42.312
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-02-13 21:47:10.153 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -data file:/home/raj/Desktop/STM32Cube/ -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-13 21:47:12.731
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-13 21:47:12.732
+!MESSAGE Log4j2 initialized with config file /home/raj/Desktop/STM32Cube/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-13 21:47:15.435
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-13 21:49:53.869
+!MESSAGE Indexed 'HelloWorld' (3 sources, 53 headers) in 0.241 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-13 21:49:56.389
+!MESSAGE Indexed 'HelloWorld' (3 sources, 53 headers) in 0.137 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-13 21:50:49.355
+!MESSAGE Indexed 'HelloWorld' (3 sources, 53 headers) in 0.124 sec: 1,950 declarations; 2,835 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
